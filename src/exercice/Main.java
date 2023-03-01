@@ -22,6 +22,7 @@ public class Main {
     }
 
     private static void iterateArray(int[] arr) {
+
         Arrays.stream(arr).forEach(element -> System.out.println(element));
     }
 }
